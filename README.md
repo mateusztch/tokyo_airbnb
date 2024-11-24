@@ -21,5 +21,7 @@ Visualization: Matplotlib, Seaborn, Folium for charts, graphs, and interactive m
 Machine Learning: Decision Trees, Random Forest, XGBoost.
 
 Future Improvements
-
+One key area for improvement is in handling geographic data. I plan to categorize latitude and longitude values into distance-based groups relative to Tokyo’s city center. 
+This will allow for better spatial analysis and may uncover new patterns or insights related to pricing and availability based on proximity to central locations. 
+This enhancement will also make it easier to integrate geographic features into predictive models.
 
