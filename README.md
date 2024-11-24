@@ -20,8 +20,7 @@ Data Tools: Pandas, Numpy for data manipulation and cleaning.
 Visualization: Matplotlib, Seaborn, Folium for charts, graphs, and interactive maps.
 Machine Learning: Decision Trees, Random Forest, XGBoost.
 
-Future Improvements
-One key area for improvement is in handling geographic data. I plan to categorize latitude and longitude values into distance-based groups relative to Tokyo’s city center. 
-This will allow for better spatial analysis and may uncover new patterns or insights related to pricing and availability based on proximity to central locations. 
-This enhancement will also make it easier to integrate geographic features into predictive models.
-
+Future Improvements :
+ - Categorize latitude and longitude values into distance-based groups relative to Tokyo’s city center.
+ - Explore improved feature engineering techniques to enhance the R² score of the XGBoost model.
+ - Simplify the model by reducing the number of parameters to focus on data that is personally relevant. For example, exclude columns related to host details (e.g., profile picture or number of properties in their portfolio). If I were planning a visit to Tokyo, I would prioritize features like property type rather than host-specific information.
